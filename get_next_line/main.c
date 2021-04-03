@@ -21,4 +21,5 @@ int	main(void)
 	printf("[%s]", line);
 	free(line);
 	line = NULL;
+	return (0);
 }

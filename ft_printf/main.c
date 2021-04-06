@@ -28,44 +28,44 @@ int main(void)
 //	char	*u = "-0";
 	char *s_hidden = "hidden";
 
-    int orig;
-    int mine;
+	int orig;
+	int mine;
 
 	orig =    printf("orig: Simple input test\n");
 	mine = ft_printf("mine: Simple input test\n\n");
 	
-    orig =    printf("orig: %d, %d, %d, %d, %d, %s, %d, %d, %d, %x, %x\n", i, j, k, l, m, n, c, c, j, j, j);
-    mine = ft_printf("mine: %d, %d, %d, %d, %d, %s, %d, %d, %d, %x, %x\n\n", i, j, k, l, m, n, c, c, j, j, j);
+	orig =    printf("orig: %d, %d, %d, %d, %d, %s, %d, %d, %d, %x, %x\n", i, j, k, l, m, n, c, c, j, j, j);
+	mine = ft_printf("mine: %d, %d, %d, %d, %d, %s, %d, %d, %d, %x, %x\n\n", i, j, k, l, m, n, c, c, j, j, j);
 	
 	orig =    printf("orig: %1d, %1d, %1d, %1d, %1d, %1d, %1d, %1d\n", i, j, k, l, m, c, e, d);
 	mine = ft_printf("mine: %1d, %1d, %1d, %1d, %1d, %1d, %1d, %1d\n\n", i, j, k, l, m, c, e, d);
 	
-    orig =    printf("orig: %2d, %2d, %2d, %2d, %2d, %2d, %2d, %2d\n", i, j, k, l, m, c, e, d);
-    mine = ft_printf("mine: %2d, %2d, %2d, %2d, %2d, %2d, %2d, %2d\n\n", i, j, k, l, m, c, e, d);
+	orig =    printf("orig: %2d, %2d, %2d, %2d, %2d, %2d, %2d, %2d\n", i, j, k, l, m, c, e, d);
+	mine = ft_printf("mine: %2d, %2d, %2d, %2d, %2d, %2d, %2d, %2d\n\n", i, j, k, l, m, c, e, d);
 	
-    orig =    printf("orig: %3d, %3d, %3d, %3d, %3d, %3d, %3d, %3d\n", i, j, k, l, m, c, e, d);
-    mine = ft_printf("mine: %3d, %3d, %3d, %3d, %3d, %3d, %3d, %3d\n\n", i, j, k, l, m, c, e, d);
+	orig =    printf("orig: %3d, %3d, %3d, %3d, %3d, %3d, %3d, %3d\n", i, j, k, l, m, c, e, d);
+	mine = ft_printf("mine: %3d, %3d, %3d, %3d, %3d, %3d, %3d, %3d\n\n", i, j, k, l, m, c, e, d);
 	
-    orig =    printf("orig: %4d, %4d, %4d, %4d, %4d, %4d, %4d, %4d\n", i, j, k, l, m, c, e, d);
-    mine = ft_printf("mine: %4d, %4d, %4d, %4d, %4d, %4d, %4d, %4d\n\n", i, j, k, l, m, c, e, d);
+	orig =    printf("orig: %4d, %4d, %4d, %4d, %4d, %4d, %4d, %4d\n", i, j, k, l, m, c, e, d);
+	mine = ft_printf("mine: %4d, %4d, %4d, %4d, %4d, %4d, %4d, %4d\n\n", i, j, k, l, m, c, e, d);
 	
-    orig =    printf("orig: %5d, %5d, %5d, %5d, %5d, %5d, %5d, %5d\n", i, j, k, l, m, c, e, d);
-    mine = ft_printf("mine: %5d, %5d, %5d, %5d, %5d, %5d, %5d, %5d\n\n", i, j, k, l, m, c, e, d);
+	orig =    printf("orig: %5d, %5d, %5d, %5d, %5d, %5d, %5d, %5d\n", i, j, k, l, m, c, e, d);
+	mine = ft_printf("mine: %5d, %5d, %5d, %5d, %5d, %5d, %5d, %5d\n\n", i, j, k, l, m, c, e, d);
 	
-    orig =    printf("orig: %6d, %6d, %6d, %6d, %6d, %6d, %6d, %6d\n", i, j, k, l, m, c, e, d);
-    mine = ft_printf("mine: %6d, %6d, %6d, %6d, %6d, %6d, %6d, %6d\n\n", i, j, k, l, m, c, e, d);
+	orig =    printf("orig: %6d, %6d, %6d, %6d, %6d, %6d, %6d, %6d\n", i, j, k, l, m, c, e, d);
+	mine = ft_printf("mine: %6d, %6d, %6d, %6d, %6d, %6d, %6d, %6d\n\n", i, j, k, l, m, c, e, d);
 	
-    orig =    printf("orig: %7d, %7d, %7d, %7d, %7d, %7d, %7d, %7d\n", i, j, k, l, m, c, e, d);
-    mine = ft_printf("mine: %7d, %7d, %7d, %7d, %7d, %7d, %7d, %7d\n\n", i, j, k, l, m, c, e, d); 
+	orig =    printf("orig: %7d, %7d, %7d, %7d, %7d, %7d, %7d, %7d\n", i, j, k, l, m, c, e, d);
+	mine = ft_printf("mine: %7d, %7d, %7d, %7d, %7d, %7d, %7d, %7d\n\n", i, j, k, l, m, c, e, d); 
 	
-    orig =    printf("orig: %8d, %8d, %8d, %8d, %8d, %8d, %8d, %8d\n", i, j, k, l, m, c, e, d); 
-    mine = ft_printf("mine: %8d, %8d, %8d, %8d, %8d, %8d, %8d, %8d\n\n", i, j, k, l, m, c, e, d); 
+	orig =    printf("orig: %8d, %8d, %8d, %8d, %8d, %8d, %8d, %8d\n", i, j, k, l, m, c, e, d); 
+	mine = ft_printf("mine: %8d, %8d, %8d, %8d, %8d, %8d, %8d, %8d\n\n", i, j, k, l, m, c, e, d); 
 	
-    orig =    printf("orig: %.d, %.d, %.d, %.d, %.d, %.d, %.d, %.d\n", i, j, k, l, m, c, e, d); 
-    mine = ft_printf("mine: %.d, %.d, %.d, %.d, %.d, %.d, %.d, %.d\n\n", i, j, k, l, m, c, e, d); 
+	orig =    printf("orig: %.d, %.d, %.d, %.d, %.d, %.d, %.d, %.d\n", i, j, k, l, m, c, e, d); 
+	mine = ft_printf("mine: %.d, %.d, %.d, %.d, %.d, %.d, %.d, %.d\n\n", i, j, k, l, m, c, e, d); 
 	
-    orig =    printf("orig: %.0d, %.0d, %.0d, %.0d, %.0d, %.0d, %.0d, %.0d\n", i, j, k, l, m, c, e, d); 
-    mine = ft_printf("mine: %.0d, %.0d, %.0d, %.0d, %.0d, %.0d, %.0d, %.0d\n\n", i, j, k, l, m, c, e, d); 
+	orig =    printf("orig: %.0d, %.0d, %.0d, %.0d, %.0d, %.0d, %.0d, %.0d\n", i, j, k, l, m, c, e, d); 
+	mine = ft_printf("mine: %.0d, %.0d, %.0d, %.0d, %.0d, %.0d, %.0d, %.0d\n\n", i, j, k, l, m, c, e, d); 
 	
 	orig =    printf("orig: %.d, %.d, %.d, %.d, %.d, %.d, %.d, %.d\n", i, j, k, l, m, c, e, d); 
 	mine = ft_printf("mine: %.d, %.d, %.d, %.d, %.d, %.d, %.d, %.d\n\n", i, j, k, l, m, c, e, d); 
@@ -73,56 +73,56 @@ int main(void)
 	orig =    printf("orig: %1.d, %1.d, %1.d, %1.d, %1.d, %1.d, %1.d, %1.d\n", i, j, k, l, m, c, e, d); 
 	mine = ft_printf("mine: %1.d, %1.d, %1.d, %1.d, %1.d, %1.d, %1.d, %1.d\n\n", i, j, k, l, m, c, e, d); 
 	
-    orig =    printf("orig: %.1d, %.1d, %.1d, %.1d, %.1d, %.1d, %.1d, %.1d\n", i, j, k, l, m, c, e, d); 
-    mine = ft_printf("mine: %.1d, %.1d, %.1d, %.1d, %.1d, %.1d, %.1d, %.1d\n\n", i, j, k, l, m, c, e, d); 
+	orig =    printf("orig: %.1d, %.1d, %.1d, %.1d, %.1d, %.1d, %.1d, %.1d\n", i, j, k, l, m, c, e, d); 
+	mine = ft_printf("mine: %.1d, %.1d, %.1d, %.1d, %.1d, %.1d, %.1d, %.1d\n\n", i, j, k, l, m, c, e, d); 
 	
-    orig =    printf("orig: %1.1d, %1.1d, %1.1d, %1.1d, %1.1d, %1.1d, %1.1d, %1.1d\n", i, j, k, l, m, c, e, d); 
-    mine = ft_printf("mine: %1.1d, %1.1d, %1.1d, %1.1d, %1.1d, %1.1d, %1.1d, %1.1d\n\n", i, j, k, l, m, c, e, d); 
+	orig =    printf("orig: %1.1d, %1.1d, %1.1d, %1.1d, %1.1d, %1.1d, %1.1d, %1.1d\n", i, j, k, l, m, c, e, d); 
+	mine = ft_printf("mine: %1.1d, %1.1d, %1.1d, %1.1d, %1.1d, %1.1d, %1.1d, %1.1d\n\n", i, j, k, l, m, c, e, d); 
 	
-    orig =    printf("orig: %1.0d, %1.0d, %1.0d, %1.0d, %1.0d, %1.0d, %1.0d, %1.0d\n", i, j, k, l, m, c, e, d); 
-    mine = ft_printf("mine: %1.0d, %1.0d, %1.0d, %1.0d, %1.0d, %1.0d, %1.0d, %1.0d\n\n", i, j, k, l, m, c, e, d); 
+	orig =    printf("orig: %1.0d, %1.0d, %1.0d, %1.0d, %1.0d, %1.0d, %1.0d, %1.0d\n", i, j, k, l, m, c, e, d); 
+	mine = ft_printf("mine: %1.0d, %1.0d, %1.0d, %1.0d, %1.0d, %1.0d, %1.0d, %1.0d\n\n", i, j, k, l, m, c, e, d); 
 	
-    orig =    printf("orig: %12.12d, %12.12d\n", -42, 42); 
-    mine = ft_printf("mine: %12.12d, %12.12d\n\n", -42, 42); 
+	orig =    printf("orig: %12.12d, %12.12d\n", -42, 42); 
+	mine = ft_printf("mine: %12.12d, %12.12d\n\n", -42, 42); 
 	
 	orig =    printf("orig: %1s, %1s, %1s, %1s, %1s\n", n, o, p, q, r); 
 	mine = ft_printf("mine: %1s, %1s, %1s, %1s, %1s\n\n", n, o, p, q, r); 
 	
-    orig =    printf("orig: %2s, %2s, %2s, %2s, %2s\n", n, o, p, q, r); 
-    mine = ft_printf("mine: %2s, %2s, %2s, %2s, %2s\n\n", n, o, p, q, r); 
+	orig =    printf("orig: %2s, %2s, %2s, %2s, %2s\n", n, o, p, q, r); 
+	mine = ft_printf("mine: %2s, %2s, %2s, %2s, %2s\n\n", n, o, p, q, r); 
 	
-    orig =    printf("orig: %3s, %3s, %3s, %3s, %3s\n", n, o, p, q, r); 
-    mine = ft_printf("mine: %3s, %3s, %3s, %3s, %3s\n\n", n, o, p, q, r); 
+	orig =    printf("orig: %3s, %3s, %3s, %3s, %3s\n", n, o, p, q, r); 
+	mine = ft_printf("mine: %3s, %3s, %3s, %3s, %3s\n\n", n, o, p, q, r); 
 	
-    orig =    printf("orig: %4s, %4s, %4s, %4s, %4s\n", n, o, p, q, r); 
-    mine = ft_printf("mine: %4s, %4s, %4s, %4s, %4s\n\n", n, o, p, q, r); 
+	orig =    printf("orig: %4s, %4s, %4s, %4s, %4s\n", n, o, p, q, r); 
+	mine = ft_printf("mine: %4s, %4s, %4s, %4s, %4s\n\n", n, o, p, q, r); 
 	
-    orig =    printf("orig: %15s, %15s, %15s, %15s, %15s\n", n, o, p, q, r); 
-    mine = ft_printf("mine: %15s, %15s, %15s, %15s, %15s\n\n", n, o, p, q, r); 
+	orig =    printf("orig: %15s, %15s, %15s, %15s, %15s\n", n, o, p, q, r); 
+	mine = ft_printf("mine: %15s, %15s, %15s, %15s, %15s\n\n", n, o, p, q, r); 
 	
-    orig =    printf("orig: %16s, %16s, %16s, %16s, %16s\n", n, o, p, q, r); 
-    mine = ft_printf("mine: %16s, %16s, %16s, %16s, %16s\n\n", n, o, p, q, r); 
+	orig =    printf("orig: %16s, %16s, %16s, %16s, %16s\n", n, o, p, q, r); 
+	mine = ft_printf("mine: %16s, %16s, %16s, %16s, %16s\n\n", n, o, p, q, r); 
 	
-    orig =    printf("orig: %17s, %17s, %17s, %17s, %17s\n", n, o, p, q, r); 
-    mine = ft_printf("mine: %17s, %17s, %17s, %17s, %17s\n\n", n, o, p, q, r); 
+	orig =    printf("orig: %17s, %17s, %17s, %17s, %17s\n", n, o, p, q, r); 
+	mine = ft_printf("mine: %17s, %17s, %17s, %17s, %17s\n\n", n, o, p, q, r); 
 	
-    orig =    printf("orig: %.s, %.s, %.s, %.s, %.s\n", n, o, p, q, r); 
-    mine = ft_printf("mine: %.s, %.s, %.s, %.s, %.s\n\n", n, o, p, q, r); 
+	orig =    printf("orig: %.s, %.s, %.s, %.s, %.s\n", n, o, p, q, r); 
+	mine = ft_printf("mine: %.s, %.s, %.s, %.s, %.s\n\n", n, o, p, q, r); 
 	
-    orig =    printf("orig: %1.s, %1.s, %1.s, %1.s, %1.s\n", n, o, p, q, r); 
-    mine = ft_printf("mine: %1.s, %1.s, %1.s, %1.s, %1.s\n\n", n, o, p, q, r); 
+	orig =    printf("orig: %1.s, %1.s, %1.s, %1.s, %1.s\n", n, o, p, q, r); 
+	mine = ft_printf("mine: %1.s, %1.s, %1.s, %1.s, %1.s\n\n", n, o, p, q, r); 
 	
-    orig =    printf("orig: %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x\n", i, i, i, j, j, j, k, k, k, l, l, l, m, m, m, c, c, c, d, d, d, e, e, e); 
-    mine = ft_printf("mine: %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x\n\n", i, i, i, j, j, j, k, k, k, l, l, l, m, m, m, c, c, c, d, d, d, e, e, e); 
+	orig =    printf("orig: %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x\n", i, i, i, j, j, j, k, k, k, l, l, l, m, m, m, c, c, c, d, d, d, e, e, e); 
+	mine = ft_printf("mine: %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x, %d, %x, %x\n\n", i, i, i, j, j, j, k, k, k, l, l, l, m, m, m, c, c, c, d, d, d, e, e, e); 
 	
-    orig =    printf("orig: %x, %x, %x, %x\n", 209590960, 207038912, 1, 0); 
-    mine = ft_printf("mine: %x, %x, %x, %x\n\n", 209590960, 207038912, 1, 0); 
+	orig =    printf("orig: %x, %x, %x, %x\n", 209590960, 207038912, 1, 0); 
+	mine = ft_printf("mine: %x, %x, %x, %x\n\n", 209590960, 207038912, 1, 0); 
 	
-    orig =    printf("orig: %%, \t, \\, \", \', +\n");
-    mine = ft_printf("mine: %%, \t, \\, \", \', +\n\n");
+	orig =    printf("orig: %%, \t, \\, \", \', +\n");
+	mine = ft_printf("mine: %%, \t, \\, \", \', +\n\n");
 	
-    orig =    printf("orig: %%%dbada%s%%**%s**-d%%0*d%12s0*@\n",   h, "bada", r, p);
-    mine = ft_printf("mine: %%%dbada%s%%**%s**-d%%0*d%12s0*@\n\n", h, "bada", r, p);
+	orig =    printf("orig: %%%dbada%s%%**%s**-d%%0*d%12s0*@\n",   h, "bada", r, p);
+	mine = ft_printf("mine: %%%dbada%s%%**%s**-d%%0*d%12s0*@\n\n", h, "bada", r, p);
 
 //                                         h        bada        r                  
 	orig =    printf("orig: %% [%d] bada [%s] %% ** [%s] **-d %% 0*d  [%12s]  0*@\n",   h, "bada", r, p);
@@ -134,18 +134,18 @@ int main(void)
 	orig =    printf("orig: %d, %d, %12d, %3d, %1d, %1d, %2d, %4d, %5d, %3d\n", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 	mine = ft_printf("mine: %d, %d, %12d, %3d, %1d, %1d, %2d, %4d, %5d, %3d\n\n", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 	
-    orig =    printf("orig: %2s, %.s, %4s, %2.4s, %8.12s, %3s, %8s, %2s, %.s, %.0s, %.1s, %.2s, %.4s, %.8s\n", NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-    mine = ft_printf("mine: %2s, %.s, %4s, %2.4s, %8.12s, %3s, %8s, %2s, %.s, %.0s, %.1s, %.2s, %.4s, %.8s\n\n", NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+	orig =    printf("orig: %2s, %.s, %4s, %2.4s, %8.12s, %3s, %8s, %2s, %.s, %.0s, %.1s, %.2s, %.4s, %.8s\n", NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+	mine = ft_printf("mine: %2s, %.s, %4s, %2.4s, %8.12s, %3s, %8s, %2s, %.s, %.0s, %.1s, %.2s, %.4s, %.8s\n\n", NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 	
-    orig =    printf("orig: %2s, %.s, %4s, %2.4s, %8.12s, %3s, %8s, %2s, %.s, %.0s, %.1s, %.2s, %.4s, %.8s\n", p,p,p,p,p,p,p,p,p,p,p,p,p,p);
-    mine = ft_printf("mine: %2s, %.s, %4s, %2.4s, %8.12s, %3s, %8s, %2s, %.s, %.0s, %.1s, %.2s, %.4s, %.8s\n\n", p,p,p,p,p,p,p,p,p,p,p,p,p,p);
+	orig =    printf("orig: %2s, %.s, %4s, %2.4s, %8.12s, %3s, %8s, %2s, %.s, %.0s, %.1s, %.2s, %.4s, %.8s\n", p,p,p,p,p,p,p,p,p,p,p,p,p,p);
+	mine = ft_printf("mine: %2s, %.s, %4s, %2.4s, %8.12s, %3s, %8s, %2s, %.s, %.0s, %.1s, %.2s, %.4s, %.8s\n\n", p,p,p,p,p,p,p,p,p,p,p,p,p,p);
 	// ^ Theoriquement un comportement indefini mais testé par la moulinette
-    
-    orig =    printf("orig: (null)\n");
-    mine = ft_printf("mine: (null)\n\n");
 	
-    orig =    printf("orig: \n");
-    mine = ft_printf("mine: \n\n");
+	orig =    printf("orig: (null)\n");
+	mine = ft_printf("mine: (null)\n\n");
+	
+	orig =    printf("orig: \n");
+	mine = ft_printf("mine: \n\n");
 	
 
 	

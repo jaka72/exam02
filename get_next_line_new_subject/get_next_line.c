@@ -6,7 +6,7 @@
 /*   By: jmurovec <jmurovec@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/25 10:28:30 by jmurovec      #+#    #+#                 */
-/*   Updated: 2022/11/12 17:12:06 by jmurovec      ########   odam.nl         */
+/*   Updated: 2022/11/12 17:23:12 by jmurovec      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -123,11 +123,11 @@ int main(void)
 	char	*line;
 	int		fd;
 
-	fd = open("text.txt", O_RDONLY);
+	//fd = open("text.txt", O_RDONLY);
 
-	//fd = 0;
+	fd = 0;
 	int i = 0;
-	while (line != NULL && i++ < 5)
+	while (line != NULL && i++ < 15)
 	{
 //		printf("b) \n");
 		line = get_next_line(fd);

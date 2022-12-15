@@ -1,0 +1,1 @@
+gcc mymicrosh.c myprintf/libftprintf.a -o mymics 
